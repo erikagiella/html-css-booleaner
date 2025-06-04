@@ -1,0 +1,28 @@
+body {
+    margin: 0px;
+}
+
+
+/*--header--*/
+header {
+    width: auto;
+    height: 6%;
+    background-image: url(./img/pattern.png);
+    background-repeat: repeat;
+    background-color: rgba(77, 161, 255, 1);
+    background-size: 40%;
+}
+
+#logo {
+    width: 200px;
+    padding-top: 30px;
+    padding-left: 8px;
+}
+
+/*--!header--*/
+
+/*--main--*/
+
+
+
+/*--!main--*/
