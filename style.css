@@ -39,28 +39,34 @@ header {
     margin: auto;
 }
 
+.italic {
+    font-style: italic;
+}
+
 .autore {
     color: rgb(139, 139, 139);
 }
-
 
 #author_name {
     color: rgb(41, 173, 230);
     font-weight: bolder;
 }
 
-.text_medium {
-    font-size: 1em;
-}
 
+.images {
+    height: 360px;
+}
 
 .text_little {
     font-size: 0.7em;
 }
 
-.italic {
-    font-style: italic;
+.highlighted {
+    background-color: yellow;
 }
 
+.list {
+    padding-inline-start: 20px;
+}
 
 /*--!main--*/
