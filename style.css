@@ -19,6 +19,38 @@ header {
     background-size: 40%;
 }
 
+tr:nth-child(even) {
+    background-color: #b1e5f2;
+}
+
+th {
+    background-color: #20a9e5;
+    color: white;
+    text-align: left;
+}
+
+table {
+    border: none;
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.text_grey {
+    color: rgb(139, 139, 139);
+}
+
+.highlighted {
+    background-color: yellow;
+}
+
+h4 {}
+
 /*--!common--*/
 
 
@@ -39,19 +71,10 @@ header {
     margin: auto;
 }
 
-.italic {
-    font-style: italic;
-}
-
-.autore {
-    color: rgb(139, 139, 139);
-}
-
 #author_name {
     color: rgb(41, 173, 230);
-    font-weight: bolder;
-}
 
+}
 
 .images {
     height: 360px;
@@ -61,12 +84,44 @@ header {
     font-size: 0.7em;
 }
 
-.highlighted {
-    background-color: yellow;
-}
+
 
 .list {
     padding-inline-start: 20px;
 }
 
+
+.col1 {
+    width: 25%;
+}
+
+.col2 {
+    width: 25%;
+}
+
 /*--!main--*/
+
+
+/*--footer--*/
+.text_image {
+    margin: 0;
+
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+    font-size: 140%;
+    font-weight: normal;
+
+    text-align: center;
+    width: 240px;
+    height: 150px;
+
+}
+
+#monitor {
+    background-image: url('img/monitor.jpg');
+}
+
+
+#graph {
+    background-image: url('img/graph.jpg');
+}
