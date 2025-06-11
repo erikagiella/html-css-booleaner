@@ -1,9 +1,15 @@
+/*--common--*/
+
 body {
     margin: 0px;
 }
 
+h1 {
+    margin: 0px 0px;
+    font-weight: 900;
+    font-size: 2em;
+}
 
-/*--header--*/
 header {
     width: auto;
     height: 6%;
@@ -13,6 +19,11 @@ header {
     background-size: 40%;
 }
 
+/*--!common--*/
+
+
+
+/*--header--*/
 #logo {
     width: 200px;
     padding-top: 30px;
@@ -22,7 +33,34 @@ header {
 /*--!header--*/
 
 /*--main--*/
+.container {
+    width: 80%;
+    max-width: 1000 px;
+    margin: auto;
+}
 
+.autore {
+    color: rgb(139, 139, 139);
+}
+
+
+#author_name {
+    color: rgb(41, 173, 230);
+    font-weight: bolder;
+}
+
+.text_medium {
+    font-size: 1em;
+}
+
+
+.text_little {
+    font-size: 0.7em;
+}
+
+.italic {
+    font-style: italic;
+}
 
 
 /*--!main--*/
