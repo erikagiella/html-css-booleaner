@@ -31,6 +31,7 @@ th {
 
 table {
     border: none;
+    border-collapse: collapse;
 }
 
 .bold {
@@ -49,10 +50,8 @@ table {
     background-color: yellow;
 }
 
-h4 {}
 
 /*--!common--*/
-
 
 
 /*--header--*/
@@ -84,12 +83,9 @@ h4 {}
     font-size: 0.7em;
 }
 
-
-
 .list {
     padding-inline-start: 20px;
 }
-
 
 .col1 {
     width: 25%;
@@ -105,12 +101,10 @@ h4 {}
 /*--footer--*/
 .text_image {
     margin: 0;
-
     background-repeat: no-repeat;
     color: #FFFFFF;
     font-size: 140%;
     font-weight: normal;
-
     text-align: center;
     width: 240px;
     height: 150px;
@@ -120,7 +114,6 @@ h4 {}
 #monitor {
     background-image: url('img/monitor.jpg');
 }
-
 
 #graph {
     background-image: url('img/graph.jpg');
